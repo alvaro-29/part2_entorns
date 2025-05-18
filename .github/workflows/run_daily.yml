@@ -2,7 +2,7 @@ name: Executar programa de temperatures
 
 on:
   schedule:
-    - cron: '59 23 * * *'  # Cada dia a les 23:59 UTC
+    - cron: '24 4 * * *'  # Cada dia a les 23:59 UTC
   workflow_dispatch:
 
 jobs:
