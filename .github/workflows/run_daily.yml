@@ -30,4 +30,4 @@ jobs:
           git config --global user.email "github-actions@github.com"
           git add temp_*.json
           git commit -m "Afegit fitxer JSON amb temperatures del dia" || echo "Sense canvis"
-          git push
+          git push https://x-access-token:${{ secrets.GH_TOKEN }}@github.com/alvaro-29/part2_entorns.git
